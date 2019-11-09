@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerLeft: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
   speakerRight: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
-  lines:
+  lines_English:
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: 
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: '...'
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: Where am I?
   - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
@@ -26,16 +30,90 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: "Okay\u2026 how do I get back home?"
   - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
-    text: Where is your home
+    text: Where is your home?
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: The Spider bridge?
   - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
     text: "I don\u2019t know where it is, but I am sure Mary Lyon\u2019s ghost can
       help!"
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
-    text: "[sigh] \u201Cokay\u2026\u201D"
+    text: "[sigh] okay\u2026"
   - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
-    text: "Before you go, you should know that Mary Lyon loves asking people about
-      Mount Holyoke College!\n I mean, she is the founder."
+    text: Before you go, you should know that Mary Lyon loves asking people about
+      Mount Holyoke College! I mean, she is the founder.
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: But I already know enough about MHC, so bye~~
+  lines_Hindi:
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: '...'
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u6211\u5728\u54EA\u513F\uFF1F"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u4F60\u5728\u66FC\u8377\u83B2\u5973\u5B50\u5B66\u9662\u3002"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u4F60\u662F\u8C01\u554A\uFF1F"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u62111918\u5E74\u5C31\u79BB\u5F00\u8FD9\u4E2A\u4E16\u754C\uFF0C\u4ECE\u6B64\u5C31\u53D8\u6210\u4E86Wilder\u7684\u4E00\u53EA\u9B3C\u9B42\u3002"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u597D\u5427... \u6211\u60F3\u56DE\u5BB6\u4E86\uFF0C\u4F60\u77E5\u9053\u6211\u600E\u4E48\u56DE\u5BB6\u561B\uFF1F"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u4F60\u7684\u5BB6\u5728\u54EA\u513F\u5462\uFF1F"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u8718\u86DB\u6865\uFF1F"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u6211\u4E5F\u4E0D\u77E5\u9053\u90A3\u5728\u54EA\u513F\u554A\uFF0C\u4F46\u662F\u6211\u89C9\u5F97Mary
+      Lyon\u7684\u7075\u9B42\u80AF\u5B9A\u80FD\u5E2E\u52A9\u4F60\u7684\u3002"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u597D\u5427... "
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u5728\u4F60\u8D70\u4E4B\u524D\uFF0C\u4F60\u8981\u77E5\u9053Mary Lyon\u7279\u522B\u559C\u6B22\u95EE\u4EBA\u5173\u4E8E\u66FC\u8377\u83B2\u7684\u95EE\u9898\uFF0C\u6BD5\u7ADF\u554A\u5979\u4E5F\u662F\u5B66\u6821\u7684\u521B\u59CB\u4EBA\u554A... "
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u6211\u89C9\u5F97\u6211\u5DF2\u7ECF\u591F\u4E86\u89E3\u66FC\u8377\u83B2\u4E86\uFF0C\u62DC\u62DC~~"
+  lines_Chinese:
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: '...'
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u092E\u0948\u0902 \u0915\u0939\u093E\u0901 \u0939\u0942\u0901?"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u0924\u0941\u092E \u092E\u093E\u0909\u0902\u091F \u0939\u094C\u0932\u0940\u092F\u094B\u0915
+      \u0915\u0949\u0932\u0947\u091C \u092E\u0947\u0902 \u0939\u094B\u0964"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u0924\u0941\u092E \u0915\u094C\u0928 \u0939\u094B?"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u0967\u096F\u0967\u096E \u092E\u0947\u0902 \u092E\u0930\u0928\u0947 \u0915\u0947
+      \u092C\u093E\u0926 \u092E\u0948\u0902 \u092D\u0942\u0924 \u0915\u0947 \u0930\u0942\u092A
+      \u092E\u0947\u0902 \u0935\u093E\u0907\u0932\u094D\u0921\u0930 \u092E\u0947\u0902
+      \u0930\u0939 \u0930\u0939\u0940 \u0939\u0942\u0901!"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u0920\u0940\u0915 \u0939\u0948\u2026 \u092A\u0930 \u092E\u0948\u0902 \u0918\u0930
+      \u0915\u0948\u0938\u0947 \u091C\u093E\u090A\u0901?"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u0924\u0941\u092E\u094D\u0939\u093E\u0930\u093E \u0918\u0930 \u0915\u0939\u093E\u0901
+      \u0939\u0948?"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u0938\u094D\u092A\u093E\u0907\u0921\u0930 \u092C\u094D\u0930\u093F\u091C "
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u092E\u0941\u091D\u0947 \u0928\u0939\u0940\u0902 \u092A\u0924\u093E \u0915\u0940
+      \u092F\u0939 \u0915\u0939\u093E \u0939\u0948\u0902 \u0932\u0947\u0915\u093F\u0928
+      \u092E\u0941\u091D\u0947 \u092F\u0915\u0940\u0928 \u0939\u0948 \u0915\u0940
+      \u092E\u0948\u0930\u0940 \u0932\u093E\u092F\u0928 \u0915\u0940 \u092D\u0942\u0924
+      \u0924\u0941\u092E\u094D\u0939\u093E\u0930\u0940 \u092E\u0926\u0926 \u0915\u0930
+      \u0938\u0915\u0947\u0917\u0940!"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u0920\u0940\u0915 \u0939\u0948\u2026"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "\u091C\u093E\u0928\u0947 \u0938\u0947 \u092A\u0939\u0932\u0947, \u0924\u0941\u092E\u094D\u0939\u0947
+      \u092F\u0939 \u092A\u0924\u093E \u0939\u094B\u0928\u093E \u091A\u093E\u0939\u093F\u090F
+      \u0915\u093F \u092E\u0948\u0930\u0940 \u0932\u093E\u092F\u0928 \u0932\u094B\u0917\u094B\u0902
+      \u0938\u0947 \u092E\u093E\u0909\u0902\u091F \u0939\u094B\u0932\u094B\u0915\u0947
+      \u0915\u0949\u0932\u0947\u091C \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902
+      \u0938\u0935\u093E\u0932  \u092A\u0942\u091B\u0928\u093E \u092A\u0938\u0902\u0926
+      \u0915\u0930\u0924\u0940 \u0939\u0948\u0902! \u092E\u0947\u0930\u0940 \u092E\u0924\u0932\u092C
+      \u0939\u0948, \u0935\u0939\u0940\u0901  \u0924\u094B \u0938\u0902\u0938\u094D\u0925\u093E\u092A\u0915
+      \u0939\u0948\u0964"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "\u0932\u0947\u0915\u093F\u0928 \u092E\u0948\u0902 \u092A\u0939\u0932\u0947
+      \u0938\u0947 \u0939\u0940 \u092E\u093E\u0909\u0902\u091F \u0939\u094B\u0932\u094B\u0915\u0947
+      \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902 \u091C\u093E\u0928\u0924\u093E
+      \u0939\u0942\u0902, \u0907\u0938\u0932\u093F\u090F \u092E\u0948\u0902 \u091A\u0932\u0924\u093E
+      \u0939\u0942\u0901~~"

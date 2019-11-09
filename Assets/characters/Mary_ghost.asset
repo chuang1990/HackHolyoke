@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mary_ghost
   m_EditorClassIdentifier: 
   fullName: Mary
-  portrait: {fileID: 21300000, guid: 4ebc217c74c5d8882aa2d105502ff3b4, type: 3}
+  portrait: {fileID: 21300000, guid: e1764af077045d3bbb150dd6e4871c5f, type: 3}

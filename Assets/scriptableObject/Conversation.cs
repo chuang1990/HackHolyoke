@@ -16,5 +16,7 @@ public class Conversation : ScriptableObject
 {
     public Character speakerLeft;
     public Character speakerRight;
-    public Line[] lines;
+    public Line[] lines_English;
+    public Line[] lines_Hindi;
+    public Line[] lines_Chinese;
 }

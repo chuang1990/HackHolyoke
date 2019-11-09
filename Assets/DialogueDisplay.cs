@@ -31,7 +31,7 @@ public class DialogueDisplay : MonoBehaviour
     }
 
     void AdvanceConversation() {
-    	if (activeLineIndex < conversation.lines.Length) {
+    	if (activeLineIndex < conversation.lines_English.Length) {
     		DisplayLine();
     		activeLineIndex++;
     	}
@@ -44,7 +44,22 @@ public class DialogueDisplay : MonoBehaviour
     }
 
     void DisplayLine() {
-    	Line line = conversation.lines[activeLineIndex];
+        Line line;
+        if(LanguageSetting.languageSelected == "English") {
+             line = conversation.lines_English[activeLineIndex];
+        }
+        else if (LanguageSetting.languageSelected == "Hindi") {
+             line = conversation.lines_Hindi[activeLineIndex];
+
+        } 
+        else if (LanguageSetting.languageSelected == "Chinese"){
+
+             line = conversation.lines_Chinese[activeLineIndex];
+        }
+        else {
+            line = conversation.lines_English[activeLineIndex];
+        }
+    	
     	Character character = line.character;
 
     	if(speakerUILeft.SpeakerIs(character)) {

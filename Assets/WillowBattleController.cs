@@ -33,12 +33,14 @@ public class WillowBattleController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("hit detected");
-
-        // GameObject e = Instantiate(explosion) as GameObject;
-        // e.transform.position = transform.position;
-        // Destroy(other.gameObject);
-        this.gameObject.SetActive(false);
+    private void OnCollisionEnter(Collision collision) { 
+        Debug.Log(gameObject.name + " just hit " 
+            + collision.gameObject.name); 
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            Debug.DrawRay(contact.point, contact.normal, Color.white);
+        }
+        // if (collision.relativeVelocity.magnitude > 2)
+        //     audioSource.Play();
     }
 }

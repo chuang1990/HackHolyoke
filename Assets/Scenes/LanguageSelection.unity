@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -96.1}
-  m_SizeDelta: {x: 580, y: 75}
+  m_AnchoredPosition: {x: 0.0000038146973, y: -96.100006}
+  m_SizeDelta: {x: 664.55, y: 75}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &41421430
 MonoBehaviour:
@@ -188,8 +188,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Welcome to <gameName>, Jorge the Goose! \n                Please select
-    your language:"
+  m_Text: "Welcome to Explore Holyoke with Jorge the Goose! \n                    Please
+    select your language:"
 --- !u!222 &41421431
 CanvasRenderer:
   m_ObjectHideFlags: 0
