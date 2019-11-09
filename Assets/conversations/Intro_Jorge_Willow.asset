@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d95dfa32169c71b4c9484a2c1a0ae5a2, type: 3}
+  m_Name: Intro_Jorge_Willow
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+  speakerRight: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: Where am I?
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: Well, you are at Mount Holyoke College.
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: Who are you?
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: I died in 1918 and have been living at Wilder as a ghost ever since!
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "Okay\u2026 how do I get back home?"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: Where is your home
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: The Spider bridge?
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "I don\u2019t know where it is, but I am sure Mary Lyon\u2019s ghost can
+      help!"
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: "[sigh] \u201Cokay\u2026\u201D"
+  - character: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
+    text: "Before you go, you should know that Mary Lyon loves asking people about
+      Mount Holyoke College!\n I mean, she is the founder."
+  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
+    text: But I already know enough about MHC, so bye~~
