@@ -29,6 +29,11 @@ public class WillowBattleController : MonoBehaviour
  			transform.position -= upAndDown;
  		}
 
+        if(Input.GetKey("q") || Input.GetKey(KeyCode.Escape)){
+            Debug.Log("Exiting");
+            Application.Quit();
+        }
+
  		// OnTriggerEnter2D()
 
     }

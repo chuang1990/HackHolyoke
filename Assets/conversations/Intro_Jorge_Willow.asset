@@ -16,8 +16,6 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: ec6a8bb36a48e6d5785d653cc9a7042c, type: 2}
   lines_English:
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
-    text: 
-  - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: '...'
   - character: {fileID: 11400000, guid: bbd3df29e41c6eaef9dbeabb03e2d353, type: 2}
     text: Where am I?
